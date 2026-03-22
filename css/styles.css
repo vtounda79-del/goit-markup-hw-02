@@ -4,6 +4,7 @@ body {
   background-color: #ffffff;
 }
 
+/* 🔥 ВАЖЛИВО (те що просили) */
 a {
   text-decoration: none;
   color: inherit;
@@ -13,6 +14,7 @@ ul {
   list-style: none;
 }
 
+/* LOGO */
 .logo,
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -24,11 +26,13 @@ ul {
   color: #4d5ae5;
 }
 
+/* header logo part */
 .logo-part {
   color: #2e2f42;
 }
 
-.logo-part-footer {
+/* 🔥 ВИПРАВЛЕННЯ ГОЛОВНОЇ ПОМИЛКИ */
+.logo-footer .logo-part {
   color: #f4f4fd;
 }
 
