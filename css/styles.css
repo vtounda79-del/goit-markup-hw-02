@@ -1,0 +1,167 @@
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+/* LOGO */
+
+.logo {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 700;
+  color: #2e2f42;
+}
+
+.logo-part {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+}
+
+/* NAVIGATION */
+
+ul {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* ADDRESS */
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* HERO */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* FEATURES */
+
+.features-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* TEAM */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.title-team {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* PORTFOLIO */
+
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
+  text-decoration: none;
+}
